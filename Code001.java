@@ -1,4 +1,4 @@
-package git;
+package JustRunJSP;
 
 import java.io.IOException;
 import javax.servlet.ServletConfig;
