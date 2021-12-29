@@ -1,20 +1,20 @@
 // 동등 연산자는 동일하다.
         <if test='search_value == 3 '> 
-					user_rank between 0 and 3 order by user_join_date desc
-				</if>
+		user_rank between 0 and 3 order by user_join_date desc
+	</if>
 		
 // [<] [<=] 연산자는 [lt] [lte] 대체식을 사용한다.
         <if test='search_value lte 3 '> 
-					user_rank between 0 and 3 order by user_join_date desc
-				</if>
+		user_rank between 0 and 3 order by user_join_date desc
+	</if>
 		
 // [>] [>=] 연산자는 [gt] [gte] 대체식을 사용한다.
         <if test='search_value lte 3 '> 
-					user_rank between 0 and 3 order by user_join_date desc
-				</if>
+		user_rank between 0 and 3 order by user_join_date desc
+	</if>
 
 // [||] [&&] 연산자는 [or] [and] 대체식을 사용한다.
 // 기호로 표기하고싶다면 |amp;|amp; 혹은 &amp;&amp; 를 사용해야한다.
         <if test='search_value == 1 or search_value == 2'> 
-					user_rank between 0 and 3 order by user_join_date desc
-				</if>
+		user_rank between 0 and 3 order by user_join_date desc
+	</if>
